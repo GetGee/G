@@ -1,0 +1,100 @@
+.App {
+  text-align: left;
+  background-color: #f4f4f4;
+}
+
+
+.App-header {
+  background-color: #f4f4f4;
+  height: 35px;
+  border-bottom: outset;
+  border-color: #f2f3f4;
+
+  padding-bottom: 12px;
+  color: white;
+  text-align: text;
+
+}
+
+.AppBar {
+    height: inherit;
+    max-width: 90%;
+    position: relative;
+    margin: .5em auto;
+}
+
+.App-intro {
+  font-size: large;
+  text-align: center;
+  background-color: white;
+  padding: 0px;
+
+}
+
+
+
+.container {
+font-family: sans-serif;
+
+font-size: 40px;
+/* text-align: 500; */
+height:auto;
+width: auto;
+background-color: white;
+padding: 189px;
+color: grey;
+
+
+}
+
+
+.search {
+font-size: large;
+text-align: center;
+align-items: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+font-family: sans-serif;
+height: 11.25em ! important;
+width: auto;
+background-color: white;
+padding-top: 1em;
+padding-bottom: 1.75em;
+color: black;
+
+
+
+}
+
+.search form {
+    height: 100%;
+    width: 100%;
+}
+
+input#searchInput {
+    height: 5em;
+    width: 25em;
+    font-size: xx-large;
+}
+
+#search>input[name="search"], #search>input[name="create"] {
+    display: none;
+}
+
+span button {
+ border: none;
+	background: transparent;
+	    margin-right: 1em;
+	
+}
+
+span button img {
+//	width: 1px;
+		height: 35px;
+		text-align: left;
+	margin~right: 5em !important;
+	cursor: pointer;
+}
+
+#help, #user {
+	float: right;
+}
