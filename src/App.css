@@ -106,16 +106,17 @@ input#searchInput {
 .nav-search {
   display: inline-block;
   position: absolute;
-  top: 5px;
+  top: 1px;
 }
 .nav-search input[type=search] {
 	width: 15px;
 	padding-left: 10px;
 	color: transparent;
 	cursor: pointer;
-	background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	background: #ededed url(core/components/buttons/png/search.071d3473.png) no-repeat 1px center;
+	background-size: 35px;
 	border: solid 1px #ccc;
-	padding: 9px 10px 9px 32px;
+	padding: 9px 10px 9px 28px;
 
 	-webkit-border-radius: 10em;
 	-moz-border-radius: 10em;
@@ -129,8 +130,8 @@ input#searchInput {
 	background-color: #fff;
 }
 .nav-search input[type=search]:focus {
-	width: 130px;
-	padding-left: 32px;
+	width: 320px;
+	padding-left: 50px;
 	color: #000;
   background-color: #fff;
 	border-color: #66CC75;
