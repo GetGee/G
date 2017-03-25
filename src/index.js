@@ -1,22 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+
 import App from './App';
 import './index.css';
-// import methodStubs from './client/configs/method_stubs';
-// import actions from './client/modules/core/actions';
-// // import routes from './routes.jsx';
-//
-// export default {
-//   // routes,
-//   actions,
-//   load(context) {
-//     methodStubs(context);
-//   }
-// };
+// import store from './store';
 
-
-
-ReactDOM.render(
-<App />,
+render((
+      <App />),
   document.getElementById('root')
 );

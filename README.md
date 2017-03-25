@@ -1,49 +1,36 @@
- # G
+# G
 
 G is an open source graph database app.
 
 
-
-<!-- [Mantra](https://github.com/kadirahq/mantra) and the following packages excerpted from [Nova](https://github.com/TelescopeJS/Telescope/tree/nova).
-
-[React List Container](https://github.com/meteor-utilities/react-list-container)
-
-[React Form Containers](https://github.com/meteor-utilities/React-Form-Containers)
-
-[Smart Methods](https://github.com/meteor-utilities/smart-methods)
-
-[Smart Publications](https://github.com/meteor-utilities/smart-publications) -->
-
-
 ### Today's Issues
 
-Discuss which states we are going to work with, and how to apply GraphQL & Redux.
-
-<!-- Call variable [React List Container](https://github.com/meteor-utilities/react-list-container) and [React Form Containers](https://github.com/meteor-utilities/React-Form-Containers) from `input_box.jsx` based on the value of `ORIGIN` and `DIRECTION`. -->
-
-Set initial states in `context.js`.
+Join the mailing list  getgee@lists.riseup.net if you are a developer and would like to be added to the trello and slack
 
 
 ##### Pull requests welcome.
+
+### Development documentation
+
+Overview and development notes can be found in the file `docs` folder.
 
 
 ### Setting Up
 
 * Clone this repo
-* Do `npm install` or 'yarn install' to install dependencies
-* Make sure you've installed create-react-app locally if none is available run 'npm install -g create-react-app'
-
-
-
+* Make sure you've installed the latest version of mongodb and node.js
+* Make sure you've installed create-react-app locally if none is available run 'yarn install -g create-react-app'
+* Do `yarn install` to install dependencies
+* Rebuild client side code to incorporate changes by running `yarn run build`.
 
 
 ### Running The App
 
-Start your app by typing `npm start` or 'yarn start'.
+Start your app by running `yarn start`.
 Access the app on <http://localhost:3000>
 
 Run tests with:
 
 ```
-npm test or yarn test
+yarn test
 ```
