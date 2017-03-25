@@ -59,9 +59,9 @@ class Navigation extends React.Component {
       <div className="nav">
         <div className="nav-left">
 				    <button id="home" name="home" value="home" onClick='window.location="http://localhost:3000/"'><img src={logo} /></button>
-            <div className="nav-search">
-              <input type="search" placeholder="Search" />
-            </div>
+            <div className="nav-search"><button id="search" name="search" value="search" ><input type="search" placeholder="Search" /></button>
+              
+							            </div>
         </div>
         <div className="nav-right">
 				    <button id="help" name="help" value="help" onClick='window.location="http://localhost:3000/"'><img src={help} /></button>
