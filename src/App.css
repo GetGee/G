@@ -48,7 +48,7 @@ text-align: center;
 align-items: center;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 font-family: sans-serif;
-height: 11.25em ! important;
+height: 15.25em ! important;
 width: auto;
 background-color: white;
 padding-top: 1em;
@@ -179,5 +179,10 @@ outline: 0;
 
 label {
   display: block;
+  margin: 10px;
+}
+
+.mainSearch label {
+  display: inline-block;
   margin: 10px;
 }
