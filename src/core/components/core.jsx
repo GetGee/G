@@ -25,8 +25,7 @@ class Core extends React.Component {
   render() {
     return (
       <div className="container core" id="core">
-        <Title direction={this.props.direction}></Title>
-				<div id="search" className="search">
+       				<div id="search" className="search">
           <SearchBar onTermChange={this.props} />
         </div>
       </div>

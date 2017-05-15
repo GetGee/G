@@ -12,7 +12,7 @@ class SearchBar extends Component {
     super(props);
 
     this.state = {
-      searchType: 'constellation',
+      searchType: 'universe',
       searchInput: '',
     };
 
@@ -32,8 +32,8 @@ class SearchBar extends Component {
   }
 	render() {
     return (
-      <div>
-        <Title direction={this.props.direction}></Title>
+      <div className = "mainSearch">
+        <Title direction={this.props.direction} searchType={this.state.searchType} />
         <form>
           <input
             id="searchInput"
